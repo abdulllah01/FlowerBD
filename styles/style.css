@@ -129,13 +129,9 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
-position: calc(3px);
 }
 
 /* Instagram section  */
-.instagram-section{
-
-}
 
 .defferent-flowers-items{
     display: flex;
@@ -149,6 +145,8 @@ width: 212px;
 height: 246px;
 margin-left: 20px;
 }
+
+
 /* gallery section  */
 
 .gallery-images-box1{
@@ -159,15 +157,15 @@ margin-left: 20px;
 }
 .gallery-images-box1 .img-box{
     overflow: hidden;
-    width: 299px;
-    height: auto;
+    width: 300px;
+    height: 200px;
     border-radius: 6px;
     margin-left: 20px;
     margin-top: 20px;
     
 }
 .gallery-images-box1 .img-box > img{
-    width: 303px;
+    width: 310px;
     height: auto;
     border-radius: 6px;
     transition: .5s;
@@ -185,14 +183,14 @@ margin-left: 20px;
 .gallery-images-box2 .img-box{
     overflow: hidden;
     width: 299px;
-    height: auto;
+    height: 200px;
     border-radius: 6px;
     margin-left: 20px;
     margin-top: 20px;
     
 }
 .gallery-images-box2 .img-box > img{
-    width: 303px;
+    width: 310px;
     height: auto;
     border-radius: 6px;
     transition: .5s;
