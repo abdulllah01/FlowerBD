@@ -192,7 +192,58 @@ width: 212px;
 height: 246px;
 margin-left: 20px;
 }
+/* gallery section  */
 
+.gallery-images-box1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+   
+}
+.gallery-images-box1 .img-box{
+    overflow: hidden;
+    width: 299px;
+    height: auto;
+    border-radius: 6px;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.gallery-images-box1 .img-box > img{
+    width: 303px;
+    height: auto;
+    border-radius: 6px;
+    transition: .5s;
+}
+.gallery-images-box1 .img-box > img:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.gallery-images-box2{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.gallery-images-box2 .img-box{
+    overflow: hidden;
+    width: 299px;
+    height: auto;
+    border-radius: 6px;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.gallery-images-box2 .img-box > img{
+    width: 303px;
+    height: auto;
+    border-radius: 6px;
+    transition: .5s;
+}
+.gallery-images-box2 .img-box > img:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
 /* Latest-Deals section   */
 
 .Latest-Deals-container{
@@ -206,11 +257,9 @@ margin-left: 20px;
 .Latest-Deals{
     width: 75%;
     height: 330px;
-    background: url(/images/Rectangle\ 9.png);
+    background: url(/images/banner2.jpg);
     background-position: center;
-    background-size:contain;
-    background-repeat: no-repeat;
-    justify-content: center;
+    background-size:cover;
     margin-left: 20px;
 }
 form {
