@@ -254,10 +254,10 @@ margin-left: 20px;
     margin-bottom: 120px;
 }
 
-.Latest-Deals{
+.Deals{
     width: 75%;
     height: 330px;
-    background: url(/images/banner2.jpg);
+    background-color: #eae5e5;
     background-position: center;
     background-size:cover;
     margin-left: 20px;
