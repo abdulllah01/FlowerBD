@@ -87,58 +87,14 @@ line-height: 30px;
     margin-bottom: 70px;
 }
 
-
-.flower-item{
-width: 170px;
-height: 228px;
-margin-right: 20px;
-align-items: center;
-}
-.flower-item:nth-child(1){
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
-    padding: 77px 35px 0px 75px;
-}
-.flower-item:nth-child(2){
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);   
-    padding: 77px 35px 0px 75px;
-}
-
-.flower-item:nth-child(3){
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(71, 125, 17, 0.15);
-    padding: 77px 35px 0px 75px;
-    
-    
-}
-
-
-.flower-img1 {
-    width: 110px;
-    height: 228px;
-    
-
-}
-.flower-img2 {
-
-    width: 170px;
-    height: 170px;
-    margin-bottom: 55px;
-}
-.flower-img3 {
-    width: 134px;
-    height: 268px;
-}
-
 .flower-item-name{
     color: #272727;
     margin-left: 10px;
-font-family: Lato;
-font-size: 14px;
-font-weight: 700;
-line-height: 35px;
-text-decoration-line: underline;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
 
 }
 
@@ -173,6 +129,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
+position: calc(3px);
 }
 
 /* Instagram section  */
