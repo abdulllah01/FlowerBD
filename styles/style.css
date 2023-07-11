@@ -60,17 +60,17 @@ align-items: center;
 /* Our Featured Flowers section  */
 .section-title{
     margin-top: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: #272727;
     text-align: center;
     font-family: Lato;
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 800px;;
 
 }
 
 .section-description{
-    color: rgba(39, 39, 39, 0.60);
+color: rgba(39, 39, 39, 0.60);
 text-align: center;
 font-family: Lato;
 font-size: 18px;
@@ -176,6 +176,9 @@ line-height: 30px;
 }
 
 /* Instagram section  */
+.instagram-section{
+
+}
 
 .defferent-flowers-items{
     display: flex;
@@ -185,7 +188,78 @@ line-height: 30px;
 
 }
 .defferent-flower-img{
-width: 242px;
-height: 296px;
+width: 212px;
+height: 246px;
 margin-left: 20px;
+}
+
+/* Latest-Deals section   */
+
+.Latest-Deals-container{
+    align-items: center;
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.Latest-Deals{
+    width: 75%;
+    height: 330px;
+    background: url(/images/Rectangle\ 9.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+    margin-left: 20px;
+}
+form {
+  padding-left: 160px;
+}
+form > input{
+    padding: 10px 200px 10px 30px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    font-size: 18px;
+    margin-right: 10px;
+    
+}
+
+/* footer section  */
+footer{
+    background: #272727;
+    padding: 130px 0px;
+}
+footer >h2{
+    text-align: center;
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+footer >h2 span{
+    color: white;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;  
+    margin-bottom: 20px;
+}
+
+footer > p{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
