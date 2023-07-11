@@ -60,6 +60,7 @@ align-items: center;
 /* Our Featured Flowers section  */
 .section-title{
     margin-top: 100px;
+    margin-bottom: 20px;
     color: #272727;
     text-align: center;
     font-family: Lato;
@@ -68,7 +69,7 @@ align-items: center;
 
 }
 
-.flower-description{
+.section-description{
     color: rgba(39, 39, 39, 0.60);
 text-align: center;
 font-family: Lato;
@@ -83,6 +84,7 @@ line-height: 30px;
     justify-content: center;
     padding: 50px 140px;
     align-items: center;
+    margin-bottom: 70px;
 }
 
 
@@ -131,11 +133,59 @@ align-items: center;
 
 .flower-item-name{
     color: #272727;
-text-align: center;
+    margin-left: 10px;
 font-family: Lato;
 font-size: 14px;
 font-weight: 700;
 line-height: 35px;
 text-decoration-line: underline;
+
 }
 
+/* hot deal section   */
+
+.hot-deal-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px 130px;
+
+}
+.hot-deal-content{
+    text-align: center;
+}
+.hot-deal-title{
+    margin-bottom: 20px;
+    color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+
+}
+
+.hot-deal-description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+/* Instagram section  */
+
+.defferent-flowers-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+.defferent-flower-img{
+width: 242px;
+height: 296px;
+margin-left: 20px;
+}
